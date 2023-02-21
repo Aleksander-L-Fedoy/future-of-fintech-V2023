@@ -1,27 +1,27 @@
 [
   {
     "name": "Vest Energi",
-    "pricingModel": "fixed",
+    "pricingModel": "fast",
     "monthlyFee": 0,
     "fixedPrice": 0.5,
     "fixedPricePeriod": 12
   },
   {
     "name": "Øst Energi",
-    "pricingModel": "variable",
+    "pricingModel": "variabel",
     "monthlyFee": 0,
     "variablePrice": 0.5,
     "variablePricePeriod": 12
   },
   {
     "name": "Nord Energi",
-    "pricingModel": "spot-hourly",
+    "pricingModel": "spot-timer",
     "monthlyFee": 0,
     "spotPrice": 0.5
   },
   {
     "name": "Nord Energi",
-    "pricingModel": "spot-monthly",
+    "pricingModel": "spot-måndetlig",
     "monthlyFee": 0,
     "spotPrice": 0.5
   }

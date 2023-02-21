@@ -1,6 +1,8 @@
 import dynamic from "next/dynamic";
 import { Header } from "../components/Header";
-
+//import { Test } from "../components/Test";
+import { StromKalkulator } from "../components/StromKalkulator";
+import { Providers } from "../components/Providers";
 // We have to import the chart this way because it creates some errors if not.
 // You have to do the same if you want to import a component that uses the Rechart library.
 const ChartDataFromFile = dynamic(
@@ -21,8 +23,9 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <ChartDataFromFile />
+      <StromKalkulator />
       <ChartDataFromAPI />
+      <Providers />
     </main>
   );
 }
